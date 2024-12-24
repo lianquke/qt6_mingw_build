@@ -297,6 +297,7 @@ jobs:
             -DFEATURE_qtwebengine_quick_build:BOOL=OFF ^
             -DQT_FEATURE_qtpdf_build:BOOL=OFF ^
             -DQT_FEATURE_qtpdf_quick_build:BOOL=OFF ^
+            -DQT_FEATURE_shared:BOOL=OFF ^
             -S%_qt_src% ^
             -B%BUILD_DIR%
 
